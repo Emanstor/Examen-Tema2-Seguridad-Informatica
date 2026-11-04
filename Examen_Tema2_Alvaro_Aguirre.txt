@@ -1,0 +1,73 @@
+==============================================================================
+EXAMEN EVALUATIVO - PROGRAMACIÓN PARA SEGURIDAD INFORMÁTICA
+GRUPO 2 (TEMA 2)
+Docente: Lic. Carlos Pacheco
+==============================================================================
+
+DATOS DEL ALUMNO:
+Nombre y Apellido: Aguirre Alvaro Sebastián
+Documento N°: 33.099.647
+
+ENLACES DE ENTREGA:
+Repositorio GitHub:
+https://github.com/Emanstor/Examen-Tema2-Seguridad-Informatica
+
+Página publicada (GitHub Pages):
+https://emanstor.github.io/Examen-Tema2-Seguridad-Informatica/
+
+==============================================================================
+RESPUESTAS DEL EXAMEN (TEMA 2)
+==============================================================================
+
+1) Según Somerville, ¿existe consenso que las fases del SDLC son: ¿Formación de personal, Análisis, diseño, Desarrollo, Pruebas, Despliegue y Mantenimiento?
+Respuesta: No (Falso)
+Justificación: Ian Sommerville señala que no existe un proceso universal ni consenso estricto sobre un conjunto fijo de fases, sino actividades fundamentales comunes (Especificación, Desarrollo/Diseño, Validación y Evolución). Además, "Formación de personal" no forma parte de las fases del SDLC.
+
+2) El modelo de aseguramiento de Microsoft, ¿es una metodología DevSecOps?
+Respuesta: No (Falso)
+Justificación: El modelo de Microsoft (Security Development Lifecycle - SDL) es una metodología formal de Secure SDLC (Ciclo de Vida de Desarrollo Seguro) orientada a integrar controles y requisitos de seguridad a lo largo de las fases de desarrollo. No es una metodología DevSecOps en su concepción original.
+
+3) El modelo de aseguramiento de Microsoft, permite: 
+a) La reducción de vulnerabilidades en el código y con una estructura basado en las fases del SDLC. 
+b) Madurez y mejora de procesos organizacionales.
+c) Estándares y cumplimientos auditable y está basado en marcos normativos.
+Respuesta: Opción a) La reducción de vulnerabilidades en el código y con una estructura basado en las fases del SDLC.
+Justificación: El objetivo primario de Microsoft SDL es reducir de forma sistemática y proactiva la cantidad y severidad de las vulnerabilidades del código integrando la seguridad en el SDLC.
+
+4) Para el gestionar el riesgo es necesario previamente: 
+a) El análisis de riesgos.  
+b) Implementar arboles de amenazas.
+c) Realizar métodos del tipo STRIDE o DREAD.
+Respuesta: Opción a) El análisis de riesgos.
+Justificación: En la gestión de riesgos (conforme a ISO 31000 / ISO 27005), la identificación y análisis de riesgos es la etapa previa indispensable para determinar el tratamiento o gestión adecuada del riesgo.
+
+5) Realizar el análisis de riesgos me permite disminuir la superficie expuesta y mejorar la seguridad:
+Respuesta: Verdadero
+Justificación: Identificar y dimensionar amenazas y vulnerabilidades permite aplicar controles idóneos, mitigar vectores de exposición innecesarios, reducir la superficie de ataque y fortalecer la postura de seguridad.
+
+6) STRIDE es un modelo de clasificación de amenazas orientado a garantizar la seguridad de las aplicaciones y sus siglas significan:
+¿Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Privilege, Elevation of Privilege?
+Respuesta: Falso
+Justificación: La letra "D" en STRIDE significa "Denial of Service" (Denegación de Servicio), y no "Denial of Privilege".
+
+7) Un lenguaje de programación compilado, ¿necesita compilar la codificación antes de su publicación?
+Respuesta: Sí (Verdadero)
+Justificación: En los lenguajes compilados, el código fuente debe ser transformado íntegramente por un compilador en código máquina ejecutable o binario antes de poder distribuirse, publicarse y ejecutarse.
+
+8) ¿Las pruebas de testing tienen como objetivo común reducir riesgos, detectar fallos y verificar aspectos funcionales y no funcionales para generar confianza en el software?
+Respuesta: Sí (Verdadero)
+Justificación: Coincide con la definición estándar y formal de la ingeniería de software (ISTQB) sobre los objetivos primordiales del testing.
+
+9) Los niveles de pruebas de testing pueden abarcan: 
+a) pruebas de funcionales, no funcionales, caja blanca, caja negra.
+b) pruebas de componentes, integración, sistemas, aceptación.
+c) pruebas de componentes, integración, funcionales, sistemas.
+Respuesta: Opción b) pruebas de componentes, integración, sistemas, aceptación.
+Justificación: Los cuatro niveles de prueba estandarizados son componentes (unitarias), integración, sistema y aceptación. Las pruebas funcionales/no funcionales son tipos, y caja blanca/negra son técnicas.
+
+10) Git es un sistema de control de versiones:
+a) Privado
+b) distribuido
+c) Remoto
+Respuesta: Opción b) distribuido
+Justificación: Git es un sistema de control de versiones distribuido (DVCS), en el cual cada usuario posee un repositorio local con el historial completo.
