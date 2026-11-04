@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen Tema 2 - Alvaro Aguirre</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      background-color: #f0f3f6;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+      padding: 35px;
+    }
+    h1 {
+      color: #0f2b48;
+      border-bottom: 3px solid #0f2b48;
+      padding-bottom: 12px;
+      margin-top: 0;
+    }
+    .header-box {
+      background: #eaf1f8;
+      border-left: 5px solid #0f2b48;
+      padding: 15px 20px;
+      border-radius: 6px;
+      margin-bottom: 25px;
+    }
+    .header-box p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+    .question {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    }
+    .question h3 {
+      margin-top: 0;
+      color: #111827;
+      font-size: 17px;
+    }
+    .answer {
+      background: #ecfdf5;
+      border-left: 4px solid #10b981;
+      padding: 10px 14px;
+      border-radius: 4px;
+      font-weight: 600;
+      color: #065f46;
+      margin-top: 10px;
+    }
+    .justification {
+      font-size: 14.5px;
+      color: #4b5563;
+      margin-top: 8px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      background-color: #0f2b48;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <h1>Evaluación: Programación para Seguridad Informática</h1>
+      <span class="badge">GRUPO 2 (TEMA 2)</span>
+    </div>
+    
+    <div class="header-box">
+      <p><strong>Alumno:</strong> Aguirre Alvaro Sebastián</p>
+      <p><strong>DNI:</strong> 33.099.647</p>
+      <p><strong>Docente:</strong> Lic. Carlos Pacheco</p>
+    </div>
+
+    <!-- Pregunta 1 -->
+    <div class="question">
+      <h3>1) Según Somerville, ¿existe consenso que las fases del SDLC son: Formación de personal, Análisis, diseño, Desarrollo, Pruebas, Despliegue y Mantenimiento?</h3>
+      <div class="answer">Respuesta: No (Falso)</div>
+      <div class="justification"><strong>Justificación:</strong> Sommerville señala que no existe un proceso estándar universal ni consenso rígido sobre un único grupo de fases, sino actividades fundamentales comunes (Especificación, Desarrollo/Diseño, Validación y Evolución). 'Formación de personal' no integra las fases del SDLC.</div>
+    </div>
+
+    <!-- Pregunta 2 -->
+    <div class="question">
+      <h3>2) El modelo de aseguramiento de Microsoft, ¿es una metodología DevSecOps?</h3>
+      <div class="answer">Respuesta: No (Falso)</div>
+      <div class="justification"><strong>Justificación:</strong> El Microsoft SDL (Security Development Lifecycle) es formalmente un marco de Secure SDLC concebido para integrar controles en cada etapa del desarrollo. No es originariamente una metodología DevSecOps.</div>
+    </div>
+
+    <!-- Pregunta 3 -->
+    <div class="question">
+      <h3>3) El modelo de aseguramiento de Microsoft, permite:</h3>
+      <p>a) La reducción de vulnerabilidades en el código y con una estructura basado en las fases del SDLC.<br>
+         b) Madurez y mejora de procesos organizacionales.<br>
+         c) Estándares y cumplimientos auditable y está basado en marcos normativos.</p>
+      <div class="answer">Respuesta: Opción a) La reducción de vulnerabilidades en el código y con una estructura basado en las fases del SDLC.</div>
+      <div class="justification"><strong>Justificación:</strong> El objetivo nuclear de Microsoft SDL es minimizar vulnerabilidades desde el diseño y código estructurándolo según las fases del ciclo de vida.</div>
+    </div>
+
+    <!-- Pregunta 4 -->
+    <div class="question">
+      <h3>4) Para gestionar el riesgo es necesario previamente:</h3>
+      <p>a) El análisis de riesgos.<br>
+         b) Implementar arboles de amenazas.<br>
+         c) Realizar métodos del tipo STRIDE o DREAD.</p>
+      <div class="answer">Respuesta: Opción a) El análisis de riesgos.</div>
+      <div class="justification"><strong>Justificación:</strong> Según normas como ISO 31000/27005, el análisis o evaluación del riesgo es el paso metodológico obligatorio antes de aplicar cualquier estrategia de tratamiento o gestión.</div>
+    </div>
+
+    <!-- Pregunta 5 -->
+    <div class="question">
+      <h3>5) Realizar el análisis de riesgos me permite disminuir la superficie expuesta y mejorar la seguridad:</h3>
+      <div class="answer">Respuesta: Verdadero</div>
+      <div class="justification"><strong>Justificación:</strong> Analizar los riesgos permite priorizar e implementar controles adecuados para mitigar vulnerabilidades y reducir los vectores de ataque expuestos.</div>
+    </div>
+
+    <!-- Pregunta 6 -->
+    <div class="question">
+      <h3>6) STRIDE es un modelo de clasificación de amenazas orientado a garantizar la seguridad de las aplicaciones y sus siglas significan: ¿Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Privilege, Elevation of Privilege?</h3>
+      <div class="answer">Respuesta: Falso</div>
+      <div class="justification"><strong>Justificación:</strong> En STRIDE, la letra D corresponde a <em>Denial of Service</em> (Denegación de Servicio), y no a 'Denial of Privilege'.</div>
+    </div>
+
+    <!-- Pregunta 7 -->
+    <div class="question">
+      <h3>7) Un lenguaje de programación compilado, ¿necesita compilar la codificación antes de su publicación?</h3>
+      <div class="answer">Respuesta: Sí (Verdadero)</div>
+      <div class="justification"><strong>Justificación:</strong> Los lenguajes compilados requieren generar el código ejecutable de máquina previo a su distribución y ejecución.</div>
+    </div>
+
+    <!-- Pregunta 8 -->
+    <div class="question">
+      <h3>8) ¿Las pruebas de testing tienen como objetivo común reducir riesgos, detectar fallos y verificar aspectos funcionales y no funcionales para generar confianza en el software?</h3>
+      <div class="answer">Respuesta: Sí (Verdadero)</div>
+      <div class="justification"><strong>Justificación:</strong> Define los objetivos fundamentales del proceso de testing de acuerdo con los estándares ISTQB.</div>
+    </div>
+
+    <!-- Pregunta 9 -->
+    <div class="question">
+      <h3>9) Los niveles de pruebas de testing pueden abarcar:</h3>
+      <p>a) pruebas de funcionales, no funcionales, caja blanca, caja negra.<br>
+         b) pruebas de componentes, integración, sistemas, aceptación.<br>
+         c) pruebas de componentes, integración, funcionales, sistemas.</p>
+      <div class="answer">Respuesta: Opción b) pruebas de componentes, integración, sistemas, aceptación.</div>
+      <div class="justification"><strong>Justificación:</strong> Corresponde a los cuatro niveles de prueba estandarizados en ingeniería de software.</div>
+    </div>
+
+    <!-- Pregunta 10 -->
+    <div class="question">
+      <h3>10) Git es un sistema de control de versiones:</h3>
+      <p>a) Privado<br>
+         b) distribuido<br>
+         c) Remoto</p>
+      <div class="answer">Respuesta: Opción b) distribuido</div>
+      <div class="justification"><strong>Justificación:</strong> Git es un sistema de control de versiones distribuido (DVCS).</div>
+    </div>
+  </div>
+</body>
+</html>
